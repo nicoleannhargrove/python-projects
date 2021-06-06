@@ -1,0 +1,7 @@
+message = input("Enter a message: ")
+print("First:" , message[0])
+print ("Last:" , message[-1])
+print("Middle:" , message[int(len(message) / 2)])
+print("Even:", message[0::2])
+print("Odd:" , message[1::2])
+print("Reverse:", message[::-1])
